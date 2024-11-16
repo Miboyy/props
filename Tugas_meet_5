@@ -18,6 +18,8 @@ export default function App() {
       <div className="flex gap-x-3">
         <Button variant="bg-red-500" />
         <Button variant="bg-blue-500" />
+        <Button variant="bg-yellow-500" />
+        <Button variant="bg-black-500" />
       </div>
     </div>
   );
