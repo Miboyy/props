@@ -1,10 +1,11 @@
 import React from "react";
 
-// Kelas Komponen
+// Button Component
 const Button = (props) => {
   return (
     <button
-      className={h-10 px-6 font-semibold rounded-md ${props.variant} text-white}
+      // eslint-disable-next-line react/prop-types
+      className={`h-10 px-6 font-semibold rounded-md ${props.variant} text-white`}
       type="submit"
     >
       Belanja
@@ -19,7 +20,7 @@ export default function App() {
         <Button variant="bg-red-500" />
         <Button variant="bg-blue-500" />
         <Button variant="bg-yellow-500" />
-        <Button variant="bg-black-500" />
+        <Button variant="bg-black" />
       </div>
     </div>
   );
