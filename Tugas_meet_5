@@ -1,0 +1,24 @@
+import React from "react";
+
+// Kelas Komponen
+const Button = (props) => {
+  return (
+    <button
+      className={h-10 px-6 font-semibold rounded-md ${props.variant} text-white}
+      type="submit"
+    >
+      Belanja
+    </button>
+  );
+};
+
+export default function App() {
+  return (
+    <div className="text-2xl flex justify-center bg-white min-h-screen items-center">
+      <div className="flex gap-x-3">
+        <Button variant="bg-red-500" />
+        <Button variant="bg-blue-500" />
+      </div>
+    </div>
+  );
+}
